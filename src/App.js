@@ -22,7 +22,7 @@ function App() {
           <UserProfile />
         </Route>)}
         <Route path='*'> 
-          <Redirect to='/'/> // whenever the user enters some invalid
+          <Redirect to='/'/>
         </Route>
       </Switch>
     </Layout>
